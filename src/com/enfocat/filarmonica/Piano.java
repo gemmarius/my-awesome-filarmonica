@@ -16,7 +16,7 @@ public class Piano extends Instrumento {
     void sonar(String url, String nombre) {
         MP3Player mp3;
         try {
-            mp3 = new MP3Player(MP3PlayerDemo.class.getResource(url + "trumpet.mp3"));
+            mp3 = new MP3Player(MP3PlayerDemo.class.getResource(url + "piano.mp3"));
             mp3.play();
         } catch (Exception ex) {
             Logger.getLogger(MP3PlayerDemo.class.getName()).log(Level.SEVERE, null, ex);

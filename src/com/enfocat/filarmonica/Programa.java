@@ -9,8 +9,9 @@ public class Programa {
 
         public static void main(String[] a) {
             
-        Instrumento gralla = new Gralla();
-        gralla.sonar(URL,gralla.getNombre());
+        //Instrumento gralla = new Gralla();
+        //gralla.sonar(URL,gralla.getNombre());
+            System.out.println("Eres retramonger");
         Instrumento piano = new Piano();
         piano.sonar(URL,piano.getNombre());
         Instrumento violin = new Violin();
